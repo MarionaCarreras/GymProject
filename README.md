@@ -27,7 +27,10 @@ El conjunto de datos incluye diversas variables relevantes para analizar la canc
 
 Variable Objetivo
 - La variable objetivo corresponde a la columna 'churn' cancelación de los clientes que se pretende pronosticar para mejorar la retención de los mismos.
-6 características son binarias (0-1)  se pasan la mayoría a categóricas
+
+Transformaciones
+- 6 características son binarias (0-1)  se pasan la mayoría a categóricas.
+- Algunas columnas se ha considerado conveniente clusterizarlas: Contract_period (Contract Type) y Age (Cluster Age).
 
 
 
